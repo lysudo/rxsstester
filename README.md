@@ -6,7 +6,7 @@ a simple program for testing reflected xss written in python ..
 # install
 
 ```
-$ git clone git@github.com:at-r00t/rxxtester.git
+$ git clone git@github.com:at-r00t/rxsstester.git
 $ cd rxsstester
 $ sudo bash install.sh
 ```
