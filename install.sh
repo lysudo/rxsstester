@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fullpath=$(pwd)
-chmod +x xssparams.py
+chmod +x rxsstester.py
 ln -s $fullpath/rxsstester.py /usr/local/bin/rxsstester
 
 chmod +x getparams.py
