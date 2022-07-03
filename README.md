@@ -18,19 +18,16 @@ the directory have three files :
 
 1- getparams.py ,which collecting all GET parameters from a file containing list of endpoints separeted by **newline**
 ```
-    usage: getparams [OPTIONS]
-
-    OPTIONS: 
-	    -f / --targetsfile <file> : line separated file contains target endpoits
-	    --url : a singl endpoint to test against
-	    -p / --paramsfile <file> : line separated file contains list of parameters to test
-	    -o <outputfile> ,write to specific file 
-	    --silent : sshh ,don't show results
+	usage: getparams [OPTIONS]
+	OPTIONS: 
+		-f <targetfile> ,contains line separated urls/endpoits
+		-o <outputfile> ,write to specific file 
+		--silent ,don't show results
 ```
     
 2- rxsstester.py ,which sends all the collected parameters to single or multiple endpoints seprated by **newline**
 ```
-    usage: {__file__} [OPTIONS]
+    usage: rxsstester [OPTIONS]
 
     OPTIONS: 
 	    -f / --targetsfile <file> : line separated file contains target endpoits
