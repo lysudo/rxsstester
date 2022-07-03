@@ -22,9 +22,11 @@ def message(notfound="", required=""):
 
 
 	#USAGE MESSAGE
-	print(f"""\nusage: {__file__} -f <inputfile>
+	print(f"""\n
 
-	OPTIONS: 
+usage: {__file__} [OPTIONS]
+
+OPTIONS: 
 	-f / --targetsfile <file> : line separated file contains target endpoits
 	--url : a singl endpoint to test against
 	-p / --paramsfile <file> : line separated file contains list of parameters to test
