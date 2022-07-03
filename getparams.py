@@ -6,11 +6,8 @@ import getopt
 from urllib.parse import urlparse
 from os.path import exists
 
-
 def message():
 	print(f"""
-
-extract all params ;-)
 usage: {__file__} [OPTIONS]
 OPTIONS: 
 	-f <targetfile> ,contains line separated urls/endpoits
