@@ -46,4 +46,4 @@ let's say you are in the recon phase and got an intersting endpoint , then what'
 
 1- use `getparams` to get all the params ,**hence the name :')** ,`getparams -f urls.txt` and it will list all the params ! if you want to save the output then simply use the option `-o <outputfile>` OR just pipe it to `tee` i.e `getparams -f urls.txt | tee params.txt` 
 
-2- start testing for reflections in all endpoints using all params we collected , so let's say you have file called `alive.txt` which have all alive domains/endpoints ,and the previous file `params.txt` , then simply do `rxsstester -f alive.txt -p params.txt` and if you want to test only one domain/endpoit then simply do `rxxtester --url <url> -p <params>
+2- start testing for reflections in all endpoints using all params we collected , so let's say you have file called `alive.txt` which have all alive domains/endpoints ,and the previous file `params.txt` , then simply do `rxsstester -f alive.txt -p params.txt` and if you want to test only one domain/endpoit then simply do `rxxtester --url <url> -p <params>`
